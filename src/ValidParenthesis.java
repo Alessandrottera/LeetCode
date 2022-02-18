@@ -3,7 +3,7 @@ import java.util.Stack;
 public class ValidParenthesis {
 
     public static void main(String args[]){
-        String s = "()[]{}";
+        String s = "()";
         ValidParenthesis validParenthesis = new ValidParenthesis();
         System.out.println(validParenthesis.isValid(s));
     }
@@ -15,7 +15,7 @@ public class ValidParenthesis {
         }
 
         for(char c : s.toCharArray()){
-            if (c == ')' || c == ']' || c == '}'){
+            if (c == '(' || c == '[' || c == '{'){
                 leftSymbols.push(c);
             } else if (c == ')' && !leftSymbols.isEmpty() && leftSymbols.peek() == '('){
                 leftSymbols.pop();
