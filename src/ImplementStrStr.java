@@ -14,6 +14,14 @@ Implement strStr().
 */
 
 public class ImplementStrStr {
+    public static void main(String[] args) {
+        String haystack = "hello";
+        String needle = "ll";
+        ImplementStrStr implementStrStr = new ImplementStrStr();
+        implementStrStr.strStr(haystack, needle);
+    }
 
-
+    public int strStr(String haystack, String needle) {
+        return haystack.indexOf(needle);
+    }
 }
