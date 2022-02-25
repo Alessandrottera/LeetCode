@@ -10,6 +10,9 @@ public class ValidParenthesis {
 
     public boolean isValid(String s) {
         Stack<Character> leftSymbols = new Stack<>();
+
+
+
         if (s.length()%2!=0){
             return false;
         }
@@ -27,7 +30,6 @@ public class ValidParenthesis {
                 return false;
             }
         }
-
         return leftSymbols.isEmpty();
 
     }
