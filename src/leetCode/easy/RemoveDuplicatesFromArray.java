@@ -1,3 +1,5 @@
+package leetCode.easy;
+
 public class RemoveDuplicatesFromArray {
     public static void main(String[] args) {
         RemoveDuplicatesFromArray removeDuplicatesFromArray = new RemoveDuplicatesFromArray();

@@ -1,3 +1,5 @@
+package leetCode.easy;
+
 import java.util.Stack;
 
 public class ValidParenthesis {

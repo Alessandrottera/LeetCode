@@ -1,4 +1,4 @@
-//An integer is a palindrome when it reads the same backward as forward.
+package leetCode.easy;//An integer is a palindrome when it reads the same backward as forward.
 
 public class PalindromeNumber {
 
