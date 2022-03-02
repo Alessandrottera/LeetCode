@@ -12,10 +12,9 @@ public class AddBinary {
         System.out.println(addBinary.addBinarySolution(a, b));
     }
 
-
     public String addBinarySolution(String a, String b) {
-        BigInteger d1 = new BigInteger(a, 2);
-        BigInteger d2 = new BigInteger(b, 2);
-        return (d1.add(d2)).toString(2);
+        BigInteger binary1 = new BigInteger(a, 2);
+        BigInteger binary2 = new BigInteger(b, 2);
+        return (binary1.add(binary2)).toString(2);
     }
 }
