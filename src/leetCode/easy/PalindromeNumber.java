@@ -2,7 +2,7 @@ package leetCode.easy;//An integer is a palindrome when it reads the same backwa
 
 public class PalindromeNumber {
 
-    public static void main(String args[]) {
+    public static void main(String[] args) {
         int number = 1221;
         PalindromeNumber palindromeNumber = new PalindromeNumber();
         boolean isPalindrome = palindromeNumber.isPalindrome(number);

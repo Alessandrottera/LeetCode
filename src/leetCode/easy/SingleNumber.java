@@ -9,7 +9,7 @@ import java.util.Iterator;
 
 public class SingleNumber {
 
-    public static void main(String args[]) {
+    public static void main(String[] args) {
 
         int[] nums = {2, 2, 3, 4, 1};
 

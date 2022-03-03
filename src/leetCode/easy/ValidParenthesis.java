@@ -4,7 +4,7 @@ import java.util.Stack;
 
 public class ValidParenthesis {
 
-    public static void main(String args[]){
+    public static void main(String[] args){
         String s = "()";
         ValidParenthesis validParenthesis = new ValidParenthesis();
         System.out.println(validParenthesis.isValid(s));

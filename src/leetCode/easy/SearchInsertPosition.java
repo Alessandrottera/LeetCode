@@ -5,7 +5,7 @@ You must write an algorithm with O(log n) runtime complexity.*/
 
 public class SearchInsertPosition {
 
-    public static void main(String args[]) {
+    public static void main(String[] args) {
         int[] nums = {1, 3, 5, 7};
         int target = 8;
         SearchInsertPosition searchInsertPosition = new SearchInsertPosition();

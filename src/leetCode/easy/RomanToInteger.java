@@ -2,7 +2,7 @@ package leetCode.easy;
 
 public class RomanToInteger {
 
-    public static void main(String args[]) {
+    public static void main(String[] args) {
         String s = "DCLXVI";
         RomanToInteger romanToInteger = new RomanToInteger();
         System.out.println(romanToInteger.romanToInt(s));
