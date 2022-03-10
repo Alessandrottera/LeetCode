@@ -4,7 +4,6 @@ Implement strStr().
         Clarification:
         What should we return when needle is an empty string? This is a great question to ask during an interview.
         For the purpose of this problem, we will return 0 when needle is an empty string. This is consistent to C's strstr() and Java's indexOf().
-
         Example 1:
         Input: haystack = "hello", needle = "ll"
         Output: 2
