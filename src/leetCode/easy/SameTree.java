@@ -7,6 +7,9 @@ import utils.TreeNode;
 
 class SameTree {
     public static void main(String[] args) {
+        TreeNode treeNode = new TreeNode(3);
+        TreeNode treeNode0 = new TreeNode(2);
+        TreeNode treeNode1 = new TreeNode(1, treeNode, treeNode0);
     }
 
 
@@ -16,7 +19,6 @@ class SameTree {
         // one of p and q is null
         if (q == null || p == null) return false;
         if (p.val != q.val) return false;
-        return isSameTree(p.right, q.right) &&
-                isSameTree(p.left, q.left);
+        return isSameTree(p.right, q.right) && isSameTree(p.left, q.left);
     }
 }
