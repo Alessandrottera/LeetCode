@@ -18,12 +18,12 @@ Then 4 is the first bad version.
 
 
 
-public class BinaryTreeInOrderTraversal {
+public class FirstBadVersion {
 
     final int badVersion = 6;
 
     public static void main(String[] args) {
-        BinaryTreeInOrderTraversal binaryTreeInOrderTraversal = new BinaryTreeInOrderTraversal();
+        FirstBadVersion binaryTreeInOrderTraversal = new FirstBadVersion();
         System.out.println(binaryTreeInOrderTraversal.firstBadVersion(6));
     }
 
