@@ -3,7 +3,7 @@ package leetCode.easy;
 //  Definition for a binary tree node.
 
 
-import utils.TreeNode;
+import leetCode.utils.TreeNode;
 
 class SameTree {
     public static void main(String[] args) {

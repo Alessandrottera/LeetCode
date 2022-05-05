@@ -1,6 +1,6 @@
 package leetCode.easy;
 
-import utils.TreeNode;
+import leetCode.utils.TreeNode;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -39,7 +39,6 @@ public class BinaryTreeInorderTraversal {
         root.right.left.left = new TreeNode(7);
         root.right.left.right = new TreeNode(8);
         binaryTreeInorderTraversal.inorderTraversal(root);
-
     }
 
 /*    public List<Integer> inorderTrasversalHelper()

@@ -1,4 +1,4 @@
-package utils;
+package leetCode.utils;
 
 //Definition for singly-linked list.
 public class ListNode {
